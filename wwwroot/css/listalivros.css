@@ -142,6 +142,7 @@
 .col_opcoes .btn_reservar {
     background-color: transparent;
     border: none;
+    text-decoration: none;
 }
 
 .col_opcoes .btn_reservar:hover {
