@@ -23,8 +23,7 @@
     @{
         string? controllerAtual = ViewContext.RouteData.Values["controller"]?.ToString();
 
-        bool mostrarHeaderFooter = controllerAtual == "Home" || controllerAtual == "Login" ||
-    string.IsNullOrEmpty(controllerAtual);
+        bool mostrarHeaderFooter = controllerAtual == "Home" || controllerAtual == "Login" || string.IsNullOrEmpty(controllerAtual);
     }
 
     @* @if(mostrarHeaderFooter == true){} *@
